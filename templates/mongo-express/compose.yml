@@ -36,3 +36,7 @@ services:
       traefik.http.routers.mongo-express-local.service: mongo-express
       traefik.http.routers.mongo-express-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

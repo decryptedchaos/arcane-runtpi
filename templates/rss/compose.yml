@@ -35,3 +35,7 @@ services:
       traefik.http.routers.rss-local.service: rss
       traefik.http.routers.rss-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

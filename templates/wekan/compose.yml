@@ -55,3 +55,7 @@ services:
       runtipi.managed: true
 networks:
   backend_network: null
+
+networks:
+  tipi_main_network:
+    external: true

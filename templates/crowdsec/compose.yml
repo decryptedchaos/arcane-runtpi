@@ -70,3 +70,7 @@ services:
       traefik.http.routers.crowdsec-local.service: crowdsec
       traefik.http.routers.crowdsec-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

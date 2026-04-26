@@ -32,3 +32,7 @@ services:
       traefik.http.routers.baikal-local.service: baikal
       traefik.http.routers.baikal-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

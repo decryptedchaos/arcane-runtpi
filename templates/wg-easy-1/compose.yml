@@ -42,3 +42,7 @@ services:
       traefik.http.routers.wg-easy-1-local.service: wg-easy-1
       traefik.http.routers.wg-easy-1-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

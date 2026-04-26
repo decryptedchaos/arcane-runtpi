@@ -42,3 +42,7 @@ services:
       timeout: 5s
       retries: 5
       start_period: 30s
+
+networks:
+  tipi_main_network:
+    external: true

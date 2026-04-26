@@ -35,3 +35,7 @@ services:
       traefik.http.routers.emulatorjs-local.service: emulatorjs
       traefik.http.routers.emulatorjs-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

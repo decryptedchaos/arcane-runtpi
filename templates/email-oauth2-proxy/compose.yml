@@ -18,3 +18,7 @@ services:
     labels:
       traefik.enable: false
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

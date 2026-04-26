@@ -35,3 +35,7 @@ services:
       traefik.http.routers.dozzle-local.service: dozzle
       traefik.http.routers.dozzle-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

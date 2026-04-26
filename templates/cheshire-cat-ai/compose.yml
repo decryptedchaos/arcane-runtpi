@@ -38,3 +38,7 @@ services:
 networks:
   tipi-main-network:
     driver: bridge
+
+networks:
+  tipi_main_network:
+    external: true

@@ -34,3 +34,7 @@ services:
       traefik.http.routers.smallweb-local.service: smallweb
       traefik.http.routers.smallweb-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

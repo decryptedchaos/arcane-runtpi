@@ -29,3 +29,7 @@ services:
       traefik.http.routers.jellyfin-vue-local.service: jellyfin-vue
       traefik.http.routers.jellyfin-vue-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

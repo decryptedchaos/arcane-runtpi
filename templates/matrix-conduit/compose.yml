@@ -78,3 +78,7 @@ services:
       traefik.http.routers.matrix-well-knows-local.service: matrix-well-knows
       traefik.http.routers.matrix-well-knows-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

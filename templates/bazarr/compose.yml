@@ -39,3 +39,7 @@ services:
       traefik.http.routers.bazarr-local.service: bazarr
       traefik.http.routers.bazarr-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

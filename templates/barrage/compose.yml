@@ -34,3 +34,7 @@ services:
       traefik.http.routers.barrage-local.service: barrage
       traefik.http.routers.barrage-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

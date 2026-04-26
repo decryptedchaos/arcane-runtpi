@@ -29,3 +29,7 @@ services:
       traefik.http.routers.hello-world-local.service: hello-world
       traefik.http.routers.hello-world-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

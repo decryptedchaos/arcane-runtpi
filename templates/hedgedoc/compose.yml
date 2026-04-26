@@ -51,3 +51,7 @@ services:
     - tipi_main_network
     labels:
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

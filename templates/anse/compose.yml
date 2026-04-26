@@ -6,3 +6,11 @@ services:
     x-runtipi:
       internal_port: 8014
       is_main: true
+
+networks:
+  tipi_main_network:
+    external: true
+
+networks:
+  tipi_main_network:
+    external: true

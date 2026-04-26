@@ -55,3 +55,7 @@ services:
       traefik.http.routers.minio-api-local.service: minio-api
       traefik.http.routers.minio-api-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

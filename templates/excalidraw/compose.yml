@@ -29,3 +29,7 @@ services:
       traefik.http.routers.excalidraw-local.service: excalidraw
       traefik.http.routers.excalidraw-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

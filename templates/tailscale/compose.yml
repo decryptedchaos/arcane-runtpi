@@ -22,3 +22,11 @@ services:
     - /dev/net/tun:/dev/net/tun
     labels:
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true
+
+networks:
+  tipi_main_network:
+    external: true

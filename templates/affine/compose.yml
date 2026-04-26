@@ -50,3 +50,11 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+
+networks:
+  tipi_main_network:
+    external: true
+
+networks:
+  tipi_main_network:
+    external: true

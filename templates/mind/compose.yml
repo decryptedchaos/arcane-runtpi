@@ -32,3 +32,7 @@ services:
       traefik.http.routers.mind-local.service: mind
       traefik.http.routers.mind-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

@@ -40,3 +40,7 @@ services:
       traefik.http.routers.podfetch-local.service: podfetch
       traefik.http.routers.podfetch-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

@@ -35,3 +35,7 @@ services:
       traefik.http.routers.dockge-local.service: dockge
       traefik.http.routers.dockge-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

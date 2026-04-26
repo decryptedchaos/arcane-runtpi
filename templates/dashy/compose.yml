@@ -30,3 +30,7 @@ services:
       traefik.http.routers.dashy-local.service: dashy
       traefik.http.routers.dashy-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

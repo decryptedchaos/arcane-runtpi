@@ -38,3 +38,7 @@ services:
       traefik.http.routers.booksonic-local.service: booksonic
       traefik.http.routers.booksonic-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

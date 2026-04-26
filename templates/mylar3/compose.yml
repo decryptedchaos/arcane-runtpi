@@ -37,3 +37,7 @@ services:
       traefik.http.routers.mylar3-local.service: mylar3
       traefik.http.routers.mylar3-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

@@ -20,3 +20,11 @@ services:
     - POSTGRES_USER=atuin
     - POSTGRES_PASSWORD=${ATUIN_DB_PASSWORD}
     - POSTGRES_DB=atuin
+
+networks:
+  tipi_main_network:
+    external: true
+
+networks:
+  tipi_main_network:
+    external: true

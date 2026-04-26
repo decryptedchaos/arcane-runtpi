@@ -40,3 +40,7 @@ services:
       traefik.http.routers.code-server-local.service: code-server
       traefik.http.routers.code-server-local.tls: true
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true

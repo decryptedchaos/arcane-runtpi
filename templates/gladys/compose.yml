@@ -19,3 +19,11 @@ services:
     - /run/udev:/run/udev:ro
     labels:
       runtipi.managed: true
+
+networks:
+  tipi_main_network:
+    external: true
+
+networks:
+  tipi_main_network:
+    external: true
